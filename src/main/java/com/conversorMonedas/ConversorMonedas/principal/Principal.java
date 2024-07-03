@@ -26,10 +26,10 @@ public class Principal {
                     * Bienvenido a el conversor de monedas ALURA *
                     **********************************************
                     
-                    Elija una opcion de conversion del 1 al 6 por favor
+                    Elija una opcion de conversion del 1 al 13 por favor
                     ___________________________________________________
                     
-                    
+                                       
                     1 - Dólar =>> Peso argentino
                     2 - Peso argentino =>> Dólar
                     3 - Dólar =>> Real brasileño

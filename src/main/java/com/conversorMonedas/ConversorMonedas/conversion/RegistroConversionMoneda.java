@@ -18,11 +18,9 @@ public class RegistroConversionMoneda {
 
     @Override
     public String toString() {
-        return "RegistroConversion{" +
-                    "monedaOrigen='" + monedaUno + '\'' +
-                    ", monedaDestino='" + monedaDos + '\'' +
-                    ", cantidadConvertida=" + cantidadConvertida +
-                    ", fechaHora=" + fechaHora +
-                    '}';
+        return "*Moneda de Origen: " + monedaUno +
+                    ", moneda de Destino: " + monedaDos +
+                    ", cantidad que usted desea convertir: " + cantidadConvertida + " " + monedaUno +
+                    ", fecha y hora de la solicitud: " + fechaHora + ".";
     }
 }
