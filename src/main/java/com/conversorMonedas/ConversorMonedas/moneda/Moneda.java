@@ -7,6 +7,9 @@ public class Moneda {
     private float brl;
     private float clp;
     private float cop;
+    private float cad;
+    private float eur;
+    private float egp;
 
     public float getUSD() {
         return usd;
@@ -56,6 +59,30 @@ public class Moneda {
         this.cop = cop;
     }
 
+    public float getCad() {
+        return cad;
+    }
+
+    public void setCad(float cad) {
+        this.cad = cad;
+    }
+
+    public float getEur() {
+        return eur;
+    }
+
+    public void setEur(float eur) {
+        this.eur = eur;
+    }
+
+    public float getEgp() {
+        return egp;
+    }
+
+    public void setEgp(float egp) {
+        this.egp = egp;
+    }
+
     public Moneda(MonedaRecord parametro) {
         this.usd = parametro.USD();
         this.ars = parametro.ARS();
@@ -63,6 +90,9 @@ public class Moneda {
         this.brl = parametro.BRL();
         this.clp = parametro.CLP();
         this.cop = parametro.COP();
+        this.cad = parametro.CAD();
+        this.eur = parametro.EUR();
+        this.egp = parametro.EGP();
     }
 
     @Override
@@ -74,6 +104,9 @@ public class Moneda {
                 ", BRL=" + brl +
                 ", CLP=" + clp +
                 ", COP=" + cop +
+                ", CAD=" + cad +
+                ", EUR=" + eur +
+                ", EGP=" + egp +
                 '}';
     }
 }

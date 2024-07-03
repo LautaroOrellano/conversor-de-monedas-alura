@@ -28,7 +28,7 @@ public class Conversion {
 
     public String toString(double valorConvertir, String monedaUno, String monedaDos ) {
         return "Usted eligio convertir " + valorConvertir + " " + monedaUno +
-                " que equivalen a " + conversionRate + " " + monedaDos +
-                ", por lo que obtiene un total de " + conversionResult + " " + monedaDos + ".";
+                " teniendo en cuenta que 1 " + monedaUno + " equivale a " + conversionRate + " " + monedaDos +
+                ", usted obtendra un total de " + conversionResult + " " + monedaDos + ".";
     }
 }
